@@ -1,0 +1,86 @@
+body{
+    margin: 0px;
+	background-image: url('downloadT.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment:fixed;
+	
+	
+    
+}
+.header{
+    background-color:black;
+    display: grid;
+    grid-template-columns: 33% 33% 37%;
+	
+    
+}
+
+.PNC{
+	text-align:center;
+	margin-top: 25px;
+	font-size: 11px;
+	color: white;
+	
+}
+.DepLogo{
+    width: 50px;
+	float:left;
+	
+	
+}
+.EPortfolio{
+	margin-top: 20px;
+	margin-left: 10px;
+	font-size: 16px;
+	float: left;
+	color:white;
+	font-family: "Teachers", sans-serif;
+	
+	
+}
+li, a{
+    list-style-type: none;
+    float:left;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+	font-size: 16px;
+	font-family: "Teachers", sans-serif;
+	
+}
+.navigation{
+    margin-right: 40px;
+    text-align: center;
+	font-family: "Teachers", sans-serif;
+}
+.Title{
+    background-color: black;
+    height: 50px;
+	font-family: "Teachers", sans-serif;
+}
+.Act{
+    width: 70%;
+    font-family: "Teachers", sans-serif
+}
+img{
+    width:100%;
+}
+  
+.Activities1Lab{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.PrelimActivities, .Activities1Lab{
+    font-size: 30px;
+    color:white;
+   
+}
+.ActivitiesInLab{
+    margin-left: 100px;
+    text-align: center;
+}
+.Activities1Lab{
+    margin-left: 400px;
+}

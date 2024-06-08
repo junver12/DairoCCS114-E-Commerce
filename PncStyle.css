@@ -1,0 +1,82 @@
+body{
+    margin: 0px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-size: 100%;
+    
+}
+.header{
+    background-color:black;
+    display: grid;
+    grid-template-columns: 33% 33% 37%;
+    
+}
+
+.PNC{
+	text-align:center;
+	margin-top: 25px;
+	font-size: 11px;
+	color: white;
+}
+.DepLogo{
+    width: 50px;
+	float:left;
+	
+	
+}
+.EPortfolio{
+	margin-top: 20px;
+	margin-left: 10px;
+	font-size: 16px;
+	float: left;
+	color:white;
+	
+	
+}
+li, a{
+    list-style-type: none;
+    float:left;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+	font-size: 16px;
+	
+}
+.navigation{
+    margin-right: 40px;
+    text-align: center;
+	
+}
+.Title{
+    background-color: black;
+    height: 50px;
+}
+
+#MainContent{
+	background-color: green;
+	display:grid;
+	grid-template-columns: 50% 50%;
+	text-align: center;
+	font-family: "Teachers", sans-serif;
+}
+
+.Vision{
+	Font-size: 100px;
+	color: white;
+	font-family: "Pacifico", cursive;
+}
+.Mission{
+	Font-size: 100px;
+	color: white;
+	font-family: "Pacifico", cursive;
+}
+.MissionPNC{
+	Font-size: 50px;
+	color: white;
+	
+}
+.VisionPNC{
+	Font-size: 50px;
+	color: white;
+}
